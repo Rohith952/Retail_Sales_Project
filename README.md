@@ -1,24 +1,28 @@
-# Retail Sales Performance Dashboard
-
 ## Overview
-This project analyzes retail sales data using Python and Power BI to uncover trends, performance insights, and customer behavior.
+Interactive retail sales analysis using Python and Power BI to uncover trends, KPIs, and customer insights.
 
 ## Tools & Technologies
 - Python (Pandas, NumPy)
-- Power BI
-- DAX
-- Data Visualization
+- Jupyter Notebook
+- Power BI (DAX, Interactive visuals)
 
-## Key Insights
-- Total sales, quantity sold, and average price KPIs
-- Monthly and yearly sales trends
-- Product category performance
-- Customer-level sales contribution
-- Gender-based sales distribution
-- Interactive slicers for filtering
+## Dataset
+- Raw data: data/retail_sales_raw.csv
+- Cleaned data: data/retail_sales_cleaned.csv
 
-## Project Structure
-- `data/` – Raw and cleaned datasets
-- `notebooks/` – Data cleaning and preprocessing notebooks
-- `Retail_Sales_Performance_Dashboard.pbix` – Power BI dashboard
-- `README.md` – Project documentation
+## Data Cleaning Steps
+- Handled missing values
+- Converted date columns
+- Feature engineering (Month, Year)
+- Validated duplicates
+
+## Dashboard Highlights
+- Total Sales KPI
+- Monthly & Yearly trends
+- Sales by Product Category
+- Sales by Gender
+- Top Customers
+
+## How to Use
+1. Open `data_cleaning.ipynb` to see data preparation
+2. Open `Retail_Sales_Performance_Dashboard.pbix` in Power BI Desktop
